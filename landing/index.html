@@ -10,27 +10,28 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
             <div class="list__header">
                 <ul class="list__anchor">
                     <li class="anchor">
-                        <a href="">Головна</a>
+                        <a href="#heading">Головна</a>
                     </li>
 
                     <li class="anchor">
-                        <a href="">FAQ</a>
+                        <a href="#news">FAQ</a>
                     </li>
 
                     <li class="anchor">
-                        <a href="">Додаток</a>
+                        <a href="#download">Додаток</a>
                     </li>
                 </ul>
                 <ul class="contacts">
-                    <li class="contact">
+                    <li class="contact language">
+                        <object class="svg__language" data="./Assets/icon/world-svgrepo-com.svg" type="image/svg+xml"></object>
                         <a class="language" href="">UA</a>
                     </li>
                     <li class="contact">
-                        <a class="link__contact" href="">github</a>
+                        <a class="link__contact" href="https://github.com/TinkyFirst/diplome">github</a>
                     </li>
                 </ul>
             </div>
@@ -38,7 +39,7 @@
         <div class="line"></div>
     </header>
 
-    <section class="download">
+    <section class="download" id="download">
         <div class="wrap">
             <div class="logo">
                 <h1 class="logo__heading">StopRussianWar</h1>
@@ -46,7 +47,7 @@
             </div>
             <div class="download__block column_two">
                 <div class="mobile__version column_two">
-                    <div class="android">
+                    <div class="android" id="android">
                         <img class="img__device img__device_android" src="./Assets/img/android.png" alt="">
                         <div class="name__device">
                             <img class="device__icon " src="./Assets/icon/SiteIconAndroid.svg" alt="">
@@ -55,8 +56,8 @@
                         </div>
 
                     </div>
-                    <div class="iphone">
-                        <img class="img__device img__device_iphone" src="./Assets/img/iphone.png" alt="">
+                    <div class="iphone" id="ios">
+                        <img class="img__device img__device_iphone" src="./Assets/img/ios.png" alt="">
                         <div class="name__device ">
                             <img class="device__icon " src="./Assets/icon/SiteIconApple.svg" alt="">
                             <p class="device">На IPhone / IPad</p>
@@ -66,7 +67,7 @@
                 </div>
 
             </div>
-            <div class="pc__version">
+            <div class="pc__version" id="pc">
                 <img class="img__device img__device_pc-img" src="./Assets/img/Снимок экрана 2022-04-26 в 22.52.01.png"
                     alt="">
                 <div class="select__pc">
@@ -76,7 +77,7 @@
             </div>
         </div>
     </section>
-    <section class="news">
+    <section class="news" id="news">
         <h2 class="heading__news">
             Свіжі новини
         </h2>
@@ -153,23 +154,24 @@
                 </div>
                 <div class="links__footer">
                     <p class="links__heading">Сторінка</p>
-                    <a class="link__footer" href="">Головна</a>
-                    <a class="link__footer" href="">Додаток</a>
+                    <a class="link__footer" href="#header">Головна</a>
+                    <a class="link__footer" href="#download">Додаток</a>
                 </div>
                 <div class="links__footer">
                     <p class="links__heading">Для мобільних</p>
-                    <a class="link__footer" href="">Android</a>
-                    <a class="link__footer" href="">IOS</a>
+                    <a class="link__footer" href="#android">Android</a>
+                    <a class="link__footer" href="#ios">IOS</a>
                 </div>
                 <div class="links__footer pc__links">
                     <p class="links__heading">Для компьютерів</p>
-                    <a class="link__footer" href="">PC</a>
-                    <a class="link__footer" href="">macOS</a>
+                    <a class="link__footer" href="#pc">PC</a>
+                    <a class="link__footer" href="#pc">macOS</a>
                 </div>
                 <div class="links__footer">
                     <p class="links__heading">Про нас</p>
-                    <a class="link__footer" href="">Github</a>
-                    <a class="link__footer" href="">Author</a>
+                    <a class="link__footer" href="https://github.com/TinkyFirst/diplome">Github</a>
+                    <a class="link__footer" href="https://github.com/Andriivov">Author</a>
+                    <a class="link__footer" href="https://github.com/Andriivov">Author</a>
                 </div>
             </div>
         </div>
@@ -178,13 +180,13 @@
             <div class="mobile__footer_contnet">
                 <ul class="footer__mobile__links">
                     <li class="footer__mobile__link">
-                        <a class="link__footer_mobile" href="">Головна</a>
+                        <a class="link__footer_mobile" href="#heading">Головна</a>
                     </li>
                     <li class="footer__mobile__link">
-                        <a class="link__footer_mobile" href="">Додаток</a>
+                        <a class="link__footer_mobile" href="#download">Додаток</a>
                     </li>
                     <li class="footer__mobile__link">
-                        <a class="link__footer_mobile" href="">GitHub</a>
+                        <a class="link__footer_mobile" href="https://github.com/TinkyFirst/diplome">GitHub</a>
                     </li>
                     <li class="footer__mobile__link">
                         <a class="link__footer_mobile" href="">About us</a>
