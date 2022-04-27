@@ -344,9 +344,12 @@ OurPlus */
   .footer__pc{
       display: none;
   }
-}
-.footer__mobile__links{
+  .footer__mobile__links{
     display: flex;
     justify-content: space-between;
     
+}
+.footer__mobile{
+    display: flex;
+}
 }
