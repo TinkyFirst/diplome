@@ -257,10 +257,10 @@ Footer {
     .logo{
         padding-top: 0;
     }
-    .download{
-        padding-top: 120px;
+    .list__header{
+        padding: 5px 10px;
     }
-    
+   
     .anchor {
         padding: 10px 8px;
     }
@@ -269,13 +269,19 @@ Footer {
         padding: 10px 8px;
     }
 
-    .logo {
+    .logo__heading {
         font-size: 35px;
     }
-
+.logo__subheading{
+    font-size: 18px;
+    padding-top: 15px;
+}
 
     /* Download */
-
+    .download{
+        padding-top: 100px;
+    }
+    
     .column_two {
         display: block;
     }
