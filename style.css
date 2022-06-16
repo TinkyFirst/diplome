@@ -125,7 +125,6 @@ ul {
 }
 
 .iphone {
-    margin-left: 200px;
     cursor: pointer;
 }
 
@@ -142,13 +141,13 @@ ul {
 
 .device__icon {
     margin-right: 10px;
+    margin-left: 10px;
     width: 25px;
     height: 27px;
 }
 
 .img__device_iphone {
-    height: 370px;
-    width: 440px;
+   
 }
 
 .device {
@@ -157,6 +156,8 @@ ul {
 
 .img__device {
     margin: 0 auto;
+    width: 75%;
+    display: flex;
 }
 
 .img__device_pc-img {
